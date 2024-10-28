@@ -13,6 +13,7 @@ Les tâches sont des actions ou des requêtes d’informations. Pour un utilisat
 - Création de compte
 - Suppression de compte
 - Demandes d'informations telles que son nom, sa date de dernière connexion ou son ID
+
   Et pour un ordinateur, ces tâches peuvent être :
 - Arrêter la machine
 - Redémarrer la machine
@@ -27,9 +28,9 @@ Deux scripts sont donc à fournir :
 
 Le projet a suivi un processus de création selon la méthode **AGILE**. Cette méthode permet de rester flexible et de s’adapter aux changements. L’environnement de travail **SCRUM** a été utilisé pour cadrer et structurer le travail en équipe.
 
-Notre organisation se basait sur une planification de sprint d’une semaine, durant laquelle un membre de l’équipe occupait l’un des deux rôles principaux :
+Notre organisation se basait sur une planification de sprint d’une semaine, durant laquelle un membre de l’équipe occupait l’un des deux rôles principaux :            
 
-**Scrum Master** : Il facilite le processus SCRUM en aidant à identifier et éliminer les obstacles, afin de maintenir la productivité de l’équipe. Il anime tous les matins les daily, qui permettent à chacun de s’exprimer librement sur des problématiques, l’avancée de leur travail, ou tout autre sujet pertinent dans le cadre du projet. Il anime aussi une rétrospective à la fin de la semaine pour faire un bilan du sprint.
+**Scrum Master** : Il facilite le processus SCRUM en aidant à identifier et éliminer les obstacles, afin de maintenir la productivité de l’équipe. Il anime tous les matins les daily, qui permettent à chacun de s’exprimer librement sur des problématiques, l’avancée de leur travail, ou tout autre sujet pertinent dans le cadre du projet. Il anime aussi une rétrospective à la fin de la semaine pour faire un bilan du sprint.                         
 **Product Owner** : Il se concentre sur la gestion du contenu produit. Il priorise les besoins du client et décide des nouvelles fonctionnalités à développer par sprint. C’est lui qui remplit le Trello par sprint et affecte les différents tickets.
 
 ### Membres de l'équipe :
@@ -42,21 +43,21 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 ### Serveurs
 
-| **Système**  | **Debian 12.5** | **Windows Server 2022** |
+| **Système**  | **Debian 12** | **Windows Server 2022** |
 | ------------ | --------------- | ----------------------- |
 | **HostName** | SRVLX01         | SRVWIN01                |
-| **Login**    | sysadmin        | administrator           |
+| **Login**    | sysadmin        | Administrator           |
 | **Password** | Azerty1\*       | Azerty1\*               |
-| **IP Fixe**  | 172.16.10.46/24 | 172.16.10.40/24         |
+| **IP Fixe**  | 172.16.10.10/24 | 172.16.10.5/24         |
 
 ### Clients
 
-| **Système**  | **Ubuntu 22.04 LTS 01** | **Windows 10**  |
+| **Système**  | **Ubuntu 24.04 LTS** | **Windows 10**  |
 | ------------ | ----------------------- | --------------- |
 | **HostName** | CLILIN01                | CLIWIN01        |
 | **Login**    | wilder                  | wilder          |
 | **Password** | Azerty1\*               | Azerty1\*       |
-| **IP Fixe**  | 172.16.10.45/24         | 172.16.10.43/24 |
+| **IP Fixe**  | 172.16.10.30/24         | 172.16.10.20/24 |
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
 
