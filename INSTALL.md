@@ -123,7 +123,7 @@ sudo systemctl enable ssh
 1. Se connecter avec la commande dans votre terminal :
 
 ```bash
-ssh clilin01@172.16.10.30
+ssh wilder@172.16.10.30
 ```
 
 ## FAQ
