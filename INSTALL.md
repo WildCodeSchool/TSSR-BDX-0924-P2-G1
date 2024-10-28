@@ -82,4 +82,48 @@ Restart-Service sshd
 powershell -ExecutionPolicy Bypass -File "C:\Users\Administrator\Desktop\Scripts\scriptWin.ps1"
 ```
 
+### Installation et connexion SSH sous Linux
+
+**Côté Client - Ubuntu**
+
+1. Mettre à jour les paquets
+
+```bash
+sudo apt update
+```
+
+2. Installer OpenSSH Server
+
+```bash
+sudo apt install openssh-server -y
+```
+
+3. Vérifier que le service SSH est bien activé et en cours d'exécution :
+
+```bash
+sudo systemctl status ssh
+```
+
+Si le service n'est pas en cours d'exécution, démarrez-le avec la commande :
+
+```bash
+sudo systemctl start ssh
+```
+
+Pour s'assurer qu'il démarre automatiquement au démarrage du système :
+
+```bash
+sudo systemctl enable ssh
+```
+
+#### Connexion
+
+**Côté Serveur - Debian**
+
+1. Se connecter avec la commande dans votre terminal :
+
+```bash
+ssh clilin01@172.16.10.30*
+```
+
 ## FAQ
