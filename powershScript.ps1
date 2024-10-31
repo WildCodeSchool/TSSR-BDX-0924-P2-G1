@@ -1,5 +1,13 @@
 Clear-Host
 
+#Fonction pour se connecter en SSH au client
+function ConnectToClient {
+  param ( 
+    [string]$ClientAdress  #nomUtilisateur@IpClient
+  )
+  #Ext
+}
+
 # Définition des fonctions 
 
 function PremierChoix {
