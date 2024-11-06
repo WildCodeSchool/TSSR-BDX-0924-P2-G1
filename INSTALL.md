@@ -18,21 +18,117 @@
 
 **Configurer le nom de l'hôte**
 
+1. Ouvrir le terminal et tapez la commande :
+
+```bash
+sudo nano /etc/hostname
+```
+
+Remplacer l'ancien nom par **SRVLX01** 2. Taper la commande
+
+```bash
+sudo nano /etc/hosts
+```
+
+Remplacer l'ancien nom par **SRVLX01**
+
+3. Redémarrer le système pour appliquer le changement avec :
+
+```bash
+sudo systemctl restart systemd-logind.service
+```
+
 **Configurer le nom de l'utilisateur**
+Ouvrir le terminal et tapez la commande :
+
+```bash
+sudo usermod -l <sysadmin> <ancien_nom>
+```
 
 **Configurer le mot de passe de l'utilisateur**
+Pour changer le mot de passe de l'utilisateur actuel, ouvrir le terminal et tapez la commande :
+
+```bash
+passwd
+```
+
+Vous serez invités à entrer votre mot de passe actuel et à rentrer le nouveau : "Azerty1\*"
 
 **Configurer l'adresse IP fixe**
+
+1. Editer le fichier de configuration _netplan_ :
+
+```bash
+sudo nano /etc/netplan/01-netcfg.yaml
+```
+
+2. Remplacer la ligne _addresses_ avec l'adresse IP prévue, "172.16.10.10/24"
+
+<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 165831.png" width=600></P>
+
+Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
+
+```bash
+sudo systemctl restart network
+```
 
 #### Ubuntu
 
 **Configurer le nom de l'hôte**
 
+1. Ouvrir le terminal et tapez la commande :
+
+```bash
+sudo nano /etc/hostname
+```
+
+Remplacer l'ancien nom par **CLILIN01** 2. Taper la commande
+
+```bash
+sudo nano /etc/hosts
+```
+
+Remplacer l'ancien nom par **CLILIN01**
+
+3. Redémarrer le système pour appliquer le changement avec :
+
+```bash
+sudo systemctl restart systemd-logind.service
+```
+
 **Configurer le nom de l'utilisateur**
+Ouvrir le terminal et tapez la commande :
+
+```bash
+sudo usermod -l <wilder> <ancien_nom>
+```
 
 **Configurer le mot de passe de l'utilisateur**
+Pour changer le mot de passe de l'utilisateur actuel, ouvrir le terminal et tapez la commande :
+
+```bash
+passwd
+```
+
+Vous serez invités à entrer votre mot de passe actuel et à rentrer le nouveau : "Azerty1\*"
 
 **Configurer l'adresse IP fixe**
+
+1. Editer le fichier de configuration _netplan_ :
+
+```bash
+sudo nano /etc/netplan/01-netcfg.yaml
+```
+
+2. Remplacer la ligne _addresses_ avec l'adresse IP prévue, "172.16.10.30/24"
+
+<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 170956.png" width=600></P>
+
+Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
+
+```bash
+sudo systemctl restart network
+```
 
 ### Windows
 
