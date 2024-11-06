@@ -1,6 +1,7 @@
 # Guide Aministrateur
 
 ## Pré-Requis techniques
+
 **Récapitulatif**
 | **Système** | **Server Debian 12** | **Client Ubuntu 24.04 LTS** |
 | ------------ | --------------- | ----------------------- |
@@ -9,12 +10,12 @@
 | **Mot de passe** | Azerty1\* | Azerty1\* |
 | **IP Fixe** | 172.16.10.10/24 | 172.16.10.30/24 |
 
-| **Système** | **Windows Server** | **Windows 10** |
-| ------------ | ----------------------- | --------------- |
-| **Nom de l'hôte** | SRVWIN01 | CLIWIN01 |
-| **Login** | Administrator | wilder |
-| **Mot de passe** | Azerty1\* | Azerty1\* |
-| **IP Fixe** | 172.16.10.5/24 | 172.16.10.20/24 |
+| **Système**       | **Windows Server** | **Windows 10**  |
+| ----------------- | ------------------ | --------------- |
+| **Nom de l'hôte** | SRVWIN01           | CLIWIN01        |
+| **Login**         | Administrator      | wilder          |
+| **Mot de passe**  | Azerty1\*          | Azerty1\*       |
+| **IP Fixe**       | 172.16.10.5/24     | 172.16.10.20/24 |
 
 ## Etapes d'installation et de configuration
 
@@ -30,7 +31,7 @@
 sudo nano /etc/hostname
 ```
 
-Remplacer l'ancien nom par **SRVLX01** 
+Remplacer l'ancien nom par **SRVLX01**
 
 2. Taper la commande
 
@@ -67,12 +68,12 @@ Vous serez invités à entrer votre mot de passe actuel et à rentrer le nouveau
 1. Editer le fichier de configuration _netplan_ :
 
 ```bash
-sudo nano /etc/netplan/01-netcfg.yaml
+sudo nano /etc/network/interfaces
 ```
 
-2. Remplacer la ligne _addresses_ avec l'adresse IP prévue, "172.16.10.10/24"
+2. Rajouter les lignes ci après avec l'adresse IP prévue, "172.16.10.10/24" et sa _gateway_
 
-<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 165831.png" width=600></P>
+<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 182536.png" width=500></P>
 
 Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
 
@@ -90,7 +91,7 @@ sudo systemctl restart network
 sudo nano /etc/hostname
 ```
 
-Remplacer l'ancien nom par **CLILIN01** 
+Remplacer l'ancien nom par **CLILIN01**
 
 2. Taper la commande
 
@@ -127,12 +128,12 @@ Vous serez invités à entrer votre mot de passe actuel et à rentrer le nouveau
 1. Editer le fichier de configuration _netplan_ :
 
 ```bash
-sudo nano /etc/netplan/01-netcfg.yaml
+sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 
-2. Remplacer la ligne _addresses_ avec l'adresse IP prévue, "172.16.10.30/24"
+2. Remplacer la ligne _addresses_ avec l'adresse IP prévue, "172.16.10.30/24" avec la _gateway_
 
-<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 170956.png" width=600></P>
+<P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 180732.png" width=500></P>
 
 Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
 
