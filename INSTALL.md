@@ -24,7 +24,9 @@
 sudo nano /etc/hostname
 ```
 
-Remplacer l'ancien nom par **SRVLX01** 2. Taper la commande
+Remplacer l'ancien nom par **SRVLX01** 
+
+2. Taper la commande
 
 ```bash
 sudo nano /etc/hosts
@@ -82,7 +84,9 @@ sudo systemctl restart network
 sudo nano /etc/hostname
 ```
 
-Remplacer l'ancien nom par **CLILIN01** 2. Taper la commande
+Remplacer l'ancien nom par **CLILIN01** 
+
+2. Taper la commande
 
 ```bash
 sudo nano /etc/hosts
