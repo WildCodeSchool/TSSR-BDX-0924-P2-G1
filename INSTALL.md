@@ -75,7 +75,7 @@ sudo nano /etc/network/interfaces
 
 <P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 182536.png" width=500></P>
 
-Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
+Faire CTRL+X afin de sauvegarder puis quitter. Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
 
 ```bash
 sudo systemctl restart network
@@ -135,7 +135,7 @@ sudo nano /etc/netplan/50-cloud-init.yaml
 
 <P ALIGN="center"><IMG src="Captures d'écran INSTALL\Capture d'écran 2024-11-06 180732.png" width=500></P>
 
-Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
+Faire CTRL+X afin de sauvegarder puis quitter. Redémarrer ensuite le service réseau pour que les modifications soient prises en compte :
 
 ```bash
 sudo systemctl restart network
