@@ -1,11 +1,6 @@
 # Guide Aministrateur
 
 ## Pré-Requis techniques
-
-## Etapes d'installation et de configuration
-
-### Linux
-
 **Récapitulatif**
 | **Système** | **Server Debian 12** | **Client Ubuntu 24.04 LTS** |
 | ------------ | --------------- | ----------------------- |
@@ -13,6 +8,17 @@
 | **Login** | sysadmin | wilder |
 | **Mot de passe** | Azerty1\* | Azerty1\* |
 | **IP Fixe** | 172.16.10.10/24 | 172.16.10.30/24 |
+
+| **Système** | **Windows Server** | **Windows 10** |
+| ------------ | ----------------------- | --------------- |
+| **Nom de l'hôte** | SRVWIN01 | CLIWIN01 |
+| **Login** | Administrator | wilder |
+| **Mot de passe** | Azerty1\* | Azerty1\* |
+| **IP Fixe** | 172.16.10.5/24 | 172.16.10.20/24 |
+
+## Etapes d'installation et de configuration
+
+### Linux
 
 #### Debian Server
 
@@ -135,14 +141,6 @@ sudo systemctl restart network
 ```
 
 ### Windows
-
-**Récapitulatif**
-| **Système** | **Windows Server** | **Windows 10** |
-| ------------ | ----------------------- | --------------- |
-| **Nom de l'hôte** | SRVWIN01 | CLIWIN01 |
-| **Login** | Administrator | wilder |
-| **Mot de passe** | Azerty1\* | Azerty1\* |
-| **IP Fixe** | 172.16.10.5/24 | 172.16.10.20/24 |
 
 #### Windows Server
 
