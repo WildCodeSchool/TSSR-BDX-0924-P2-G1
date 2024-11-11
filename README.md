@@ -59,7 +59,26 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 | **IP Fixe**  | 172.16.10.45/24         | 172.16.10.43/24 |
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
-
+- **Semaine 1** :
+   Au cours de la première semaine, il n'y a eu aucun problème notoire, à l'exception de l'installation de la machine serveur Windows,
+   qui a nécessité beaucoup de temps.
+- **semaine 2** :
+   Créez un script Bash qui suit l'arborescence et la structure initiale, capable d'afficher les différents menus et sous-menus
+   tout en permettant d'effectuer diverses actions et de demander des informations selon le choix de la machine.
+   Établir la connexion ssh entre les machines virtuelles
+- **semaine 3** :
+   on'a toujours pas réussi a etablir la connexion entre les machines
+   Le script bash est toujours en cours de développement mais ne s'exécute pas sur des machines distantes.
+- **Semaine 4** :
 ## Solutions trouvées
+
+- **Semaine 1** :
+
+- **Semaine 2** :
+  Nous avons réussi à rédiger une premiére partie du script en suivant le plan de l'arborescence, étape par étape,
+  et concernant l'affichage des menus et sous-menus On a utilisé la fonction "switch...case" pour régler le problème.
+- **Semaine 3** 
+- **Semaine 4**
+
 
 ## Améliorations possibles
