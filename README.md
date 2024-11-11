@@ -34,9 +34,9 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 ### Membres de l'équipe :
 
-- _Mindy Setham_ : Semaine 1 Product-Owner
-- _Frédérique Druet_ : Semaine 1 Scrum-Master
-- _Hamza Malki_ : Semaine 1 Technicien
+- _Mindy Setham_ : Semaine 1 Product-Owner/ Semaine 2 Technicienne / Semaine 3 Technicienne / Semaine 4 Scrum-Master
+- _Frédérique Druet_ : Semaine 1 Scrum-Master / Semaine 2 Product-Owner / Semaine 3 Scrum-Master/ Semaine 4 Technicienne
+- _Hamza Malki_ : Semaine 1 Technicien / Semaine 2 Scrum-Master / Semaine 3 Product-Owner / Semaine 4 Product-Owner
 
 ## Choix techniques
 
