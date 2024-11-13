@@ -109,8 +109,14 @@ Sur le script **Bash**, en charge :
 
 - **Semaine 2** :
   Nous avons réussi à rédiger une premiére partie du script en suivant le plan de l'arborescence, étape par étape,
-  et concernant l'affichage des menus et sous-menus On a utilisé la fonction "switch...case" pour régler le problème.
+  et concernant l'affichage des menus et sous-menus, nous avons utilisé la fonction "switch...case" pour régler le problème.
 - **Semaine 3**
 - **Semaine 4**
 
 ## Améliorations possibles
+
+Des améliorations sont à prévoir afin d'agrandir le spectre des actions possibles et des informations à récupérer.
+Côté Utilisateur, nous pourions rajouter la possibilité d'ajouter le compte au groupe Aministrateur ou encore récupérer des informations telles la date de dernière mofication du mot de passe.
+Côté Ordinateur, nous pourrions implémenter la possibilité de mattre à jour le système, ajouter ou supprimer ds répertoire ou fichiers ou encore installer ou désinstaller des programmes.
+Ce script de gestion d'une machine à distance nous permet d'envisager d'aller encore plus loin dans notre champ d'actions.
+Nous souhaiterions aussi améliorer la fluidité et l'esthétisque de notre script afin qu'il soit plus aéré et harmonieux pour une expérience utilisateur optimale et agréable.
