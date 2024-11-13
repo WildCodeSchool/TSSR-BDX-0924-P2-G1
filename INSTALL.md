@@ -341,3 +341,5 @@ ssh wilder@172.16.10.30
 ```
 
 ## FAQ
+**Problème de connexion à l'ordinateur cible** :
+Il faut vérifier l'installation (INSTALL.md). Il se peut que le problème soit causé par une adresse IP erronée, l'absence d'installation ou d'activité de la connexion SSH, ou une mauvaise configuration du compte utilisateur SSH.
