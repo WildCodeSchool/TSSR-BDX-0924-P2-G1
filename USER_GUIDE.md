@@ -40,4 +40,4 @@ PS <chemin_absolu_du_script> .\powershScript.ps1
 Réponse : Vérifiez bien les différentes données rentrées aux 3 premières question : le nom de l'**utilisateur**, l'**adresse IP**, et le **mot de passe de l'utilisateur**. A noter que pour qu'une connexion SSH soit effectiveet confirmée, la machine client doit être à minima allumée.
 
 **_Question : Je ne trouve pas le fichier qui liste toutes les informations que j'ai récupérées dans le script_**
-Réponse : Le fichier qui cetralise les informations demandées lors de l'exécution du script se situe dans le dossier ** Documents** du compte utilisateur du serveur. Le chemin absolu est celui-ci : `C:\Users\Administrators\Documents`
+Réponse : Le fichier qui centralise les informations demandées lors de l'exécution du script se situe dans le dossier ** Documents** du compte utilisateur du serveur. Le chemin absolu est celui-ci : `C:\Users\Administrators\Documents`
