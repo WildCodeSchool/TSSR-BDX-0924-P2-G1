@@ -347,7 +347,7 @@ Il faut vérifier l'installation (INSTALL.md). Il se peut que le problème soit 
 
 **Je ne parviens pas à exécuter le script ,Permission non accordée** 
 
-on dois exécuter le script avec sudo. Si la commande sudo est introuvable, il faut recommencer l'installation de cette commande 
+on dois exécuter le script avec sudo. Si la commande sudo est introuvable, il faut recommencer l'installation de cette commande :
 ```bash
 apt install sudo
 ```
