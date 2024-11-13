@@ -343,3 +343,6 @@ ssh wilder@172.16.10.30
 ## FAQ
 **Problème de connexion à l'ordinateur cible** :
 Il faut vérifier l'installation (INSTALL.md). Il se peut que le problème soit causé par une adresse IP erronée, l'absence d'installation ou d'activité de la connexion SSH, ou une mauvaise configuration du compte utilisateur SSH.
+**Je ne parviens pas à exécuter le script ,Permission non accordée** 
+on dois exécuter le script avec sudo. Si la commande sudo est introuvable, il faut recommencer l'installation de cette commande  "apt install sudo"
+
