@@ -34,9 +34,42 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 ### Membres de l'équipe :
 
-- _Mindy Setham_ : Semaine 1 Product-Owner/ Semaine 2 Technicienne / Semaine 3 Technicienne / Semaine 4 Scrum-Master
-- _Frédérique Druet_ : Semaine 1 Scrum-Master / Semaine 2 Product-Owner / Semaine 3 Scrum-Master/ Semaine 4 Technicienne
-- _Hamza Malki_ : Semaine 1 Technicien / Semaine 2 Scrum-Master / Semaine 3 Product-Owner / Semaine 4 Product-Owner
+**_Mindy Setham_** :
+Semaine 1 : Product-Owner
+Semaine 2 : Technicienne  
+Semaine 3 : Technicienne
+Semaine 4 : Scrum-Master
+
+Sur le script **PowerShell**, en charge :
+
+- des fonctionnalités Cible Utilisateur
+- de la mise en place du fichier de logs qui donne l'historique de toutes les actions
+
+**_Frédérique Druet_** :
+Semaine 1 : Scrum-Master
+Semaine 2 : Product-Owner  
+Semaine 3 : Scrum-Master
+Semaine 4 : Technicienne
+
+Sur le script **PowerShell**, en charge :
+
+- des fontionnalités Cible Ordinateur
+- de la mise en place du fichier info_nomCible_date.txt qui récupère les informations demandées.
+- de la connexion SSH et son automatisation
+- rédaction des livrables
+
+**_Hamza Malki_** :
+Semaine 1 Technicien
+Semaine 2 Scrum-Master
+Semaine 3 Product-Owner
+Semaine 4 Product-Owner
+
+Sur le script **Bash**, en charge :
+
+- des fonctionnalités Cible utilisateur et ordinateur
+- de la mise en place du fichier info_nomCible_date.txt qui récupère les informations demandées
+- de la mise en place du fichier de logs qui donne l'historique de toutes les actions
+- rédaction des FAQ et partie "Problèmes rencontrés" des livrables
 
 ## Choix techniques
 
@@ -59,17 +92,17 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 | **IP Fixe**  | 172.16.10.45/24         | 172.16.10.43/24 |
 
 ## Difficultés rencontrées : problèmes techniques rencontrés
+
 - **Semaine 1** :
-   Au cours de la première semaine, il n'y a eu aucun problème notoire, à l'exception de l'installation de la machine serveur Windows,
-   qui a nécessité beaucoup de temps.
-- **semaine 2** :
-   Créez un script Bash qui suit l'arborescence et la structure initiale, capable d'afficher les différents menus et sous-menus
-   tout en permettant d'effectuer diverses actions et de demander des informations selon le choix de la machine.
-   Établir la connexion ssh entre les machines virtuelles
-- **semaine 3** :
-   on'a toujours pas réussi a etablir la connexion entre les machines
-   Le script bash est toujours en cours de développement mais ne s'exécute pas sur des machines distantes.
+  Au cours de la première semaine, il n'y a eu aucun problème notoire, à l'exception de l'installation de la machine serveur Windows, qui a nécessité beaucoup de temps.
+- **Semaine 2** :
+  Créez un script Bash qui suit l'arborescence et la structure initiale, capable d'afficher les différents menus et sous-menus, tout en permettant d'effectuer diverses actions et de demander des informations selon le choix de la machine.
+  Établir la connexion ssh entre les machines virtuelles
+- **Semaine 3** :
+  Nous n'avons toujours pas réussi a etablir la connexion entre les machines.
+  Le script bash est toujours en cours de développement mais ne s'exécute pas sur des machines distantes.
 - **Semaine 4** :
+
 ## Solutions trouvées
 
 - **Semaine 1** :
@@ -77,8 +110,7 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 - **Semaine 2** :
   Nous avons réussi à rédiger une premiére partie du script en suivant le plan de l'arborescence, étape par étape,
   et concernant l'affichage des menus et sous-menus On a utilisé la fonction "switch...case" pour régler le problème.
-- **Semaine 3** 
+- **Semaine 3**
 - **Semaine 4**
-
 
 ## Améliorations possibles
