@@ -8,7 +8,7 @@ Vous avez un script `powershScript.ps1` qui s'exécutera sous la machine Serveur
 Nous avons créé un arborescence des possibilités de nos scripts pour plus de compréhension et de visibilité.
 Lors de l'exécution de nos scripts, voici ce qui va vous être proposé :
 
-<P ALIGN="center"><IMG src="Captures d'écran USERGUIDE\Capture d'écran 2024-11-11 151650.png" width=600></P>
+<P ALIGN="center"><IMG src="Captures d'écran USERGUIDE\Capture d'écran 2024-11-11 151650.png" width=1100></P>
 
 Pour exécuter les différents scripts, voici la marche à suivre :
 
