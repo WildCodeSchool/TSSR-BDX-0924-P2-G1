@@ -30,27 +30,28 @@ Le projet a suivi un processus de création selon la méthode **AGILE**. Cette m
 
 Notre organisation se basait sur une planification de sprint d’une semaine, durant laquelle un membre de l’équipe occupait l’un des deux rôles principaux :            
 
-**Scrum Master** : Il facilite le processus SCRUM en aidant à identifier et éliminer les obstacles, afin de maintenir la productivité de l’équipe. Il anime tous les matins les daily, qui permettent à chacun de s’exprimer librement sur des problématiques, l’avancée de leur travail, ou tout autre sujet pertinent dans le cadre du projet. Il anime aussi une rétrospective à la fin de la semaine pour faire un bilan du sprint.                         
+**Scrum Master** : Il facilite le processus SCRUM en aidant à identifier et éliminer les obstacles, afin de maintenir la productivité de l’équipe. Il anime tous les matins les daily, qui permettent à chacun de s’exprimer librement sur des problématiques, l’avancée de leur travail, ou tout autre sujet pertinent dans le cadre du projet. Il anime aussi une rétrospective à la fin de la semaine pour faire un bilan du sprint.<br>
+
 **Product Owner** : Il se concentre sur la gestion du contenu produit. Il priorise les besoins du client et décide des nouvelles fonctionnalités à développer par sprint. C’est lui qui remplit le Trello par sprint et affecte les différents tickets.
 
 ### Membres de l'équipe :
 
-**_Mindy Setham_** :
-Semaine 1 : Product-Owner
-Semaine 2 : Technicienne  
-Semaine 3 : Technicienne
-Semaine 4 : Scrum-Master
+**_Mindy Setham_** :<br>
+Semaine 1 : Product-Owner<br>
+Semaine 2 : Technicienne<br> 
+Semaine 3 : Technicienne<br>
+Semaine 4 : Scrum-Master<br>
 
 Sur le script **PowerShell**, en charge :
 
 - des fonctionnalités Cible Utilisateur
 - de la mise en place du fichier de logs qui donne l'historique de toutes les actions
 
-**_Frédérique Druet_** :
-Semaine 1 : Scrum-Master
-Semaine 2 : Product-Owner  
-Semaine 3 : Scrum-Master
-Semaine 4 : Technicienne
+**_Frédérique Druet_** :<br>
+Semaine 1 : Scrum-Master<br>
+Semaine 2 : Product-Owner<br>
+Semaine 3 : Scrum-Master<br>
+Semaine 4 : Technicienne<br>
 
 Sur le script **PowerShell**, en charge :
 
@@ -59,11 +60,11 @@ Sur le script **PowerShell**, en charge :
 - de la connexion SSH et son automatisation
 - rédaction des livrables
 
-**_Hamza Malki_** :
-Semaine 1 Technicien
-Semaine 2 Scrum-Master
-Semaine 3 Product-Owner
-Semaine 4 Product-Owner
+**_Hamza Malki_** :<br>
+Semaine 1 Technicien<br>
+Semaine 2 Scrum-Master<br>
+Semaine 3 Product-Owner<br>
+Semaine 4 Product-Owner<br>
 
 Sur le script **Bash**, en charge :
 
