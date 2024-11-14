@@ -8,7 +8,8 @@ Dans le cadre de notre projet 2 au sein de la Wild Code School, nous avons pour 
 
 Le projet consiste donc à créer un script qui s’exécute sur une machine et effectue des tâches sur des machines distantes.
 L’ensemble des machines sont sur le même réseau.
-Les tâches sont des actions ou des requêtes d’informations. Pour un utilisateur, ces tâches peuvent être :
+Les tâches sont des actions ou des requêtes d’informations.<br>
+Pour un utilisateur, ces tâches peuvent être :
 
 - Création de compte
 - Suppression de compte
@@ -36,7 +37,7 @@ Notre organisation se basait sur une planification de sprint d’une semaine, du
 
 ### Membres de l'équipe :
 
-**_Mindy Setham_** :<br>
+### **_Mindy Setham_** :<br>
 Semaine 1 : Product-Owner<br>
 Semaine 2 : Technicienne<br> 
 Semaine 3 : Technicienne<br>
@@ -47,7 +48,7 @@ Sur le script **PowerShell**, en charge :
 - des fonctionnalités Cible Utilisateur
 - de la mise en place du fichier de logs qui donne l'historique de toutes les actions
 
-**_Frédérique Druet_** :<br>
+### **_Frédérique Druet_** :<br>
 Semaine 1 : Scrum-Master<br>
 Semaine 2 : Product-Owner<br>
 Semaine 3 : Scrum-Master<br>
@@ -60,7 +61,7 @@ Sur le script **PowerShell**, en charge :
 - de la connexion SSH et son automatisation
 - rédaction des livrables
 
-**_Hamza Malki_** :<br>
+### **_Hamza Malki_** :<br>
 Semaine 1 Technicien<br>
 Semaine 2 Scrum-Master<br>
 Semaine 3 Product-Owner<br>
@@ -117,8 +118,8 @@ Sur le script **Bash**, en charge :
 
 ## Améliorations possibles
 
-Des améliorations sont à prévoir afin d'agrandir le spectre des actions possibles et des informations à récupérer.
-Côté Utilisateur, nous pourions rajouter la possibilité d'ajouter le compte au groupe Aministrateur ou encore récupérer des informations telles la date de dernière mofication du mot de passe.
-Côté Ordinateur, nous pourrions implémenter la possibilité de mattre à jour le système, ajouter ou supprimer ds répertoire ou fichiers ou encore installer ou désinstaller des programmes.
-Ce script de gestion d'une machine à distance nous permet d'envisager d'aller encore plus loin dans notre champ d'actions.
+Des améliorations sont à prévoir afin d'agrandir le spectre des actions possibles et des informations à récupérer.<br>
+Côté Utilisateur, nous pourions rajouter la possibilité d'ajouter le compte au groupe Aministrateur ou encore récupérer des informations telles la date de dernière mofication du mot de passe.<br>
+Côté Ordinateur, nous pourrions implémenter la possibilité de mattre à jour le système, ajouter ou supprimer ds répertoire ou fichiers ou encore installer ou désinstaller des programmes.<br>
+Ce script de gestion d'une machine à distance nous permet d'envisager d'aller encore plus loin dans notre champ d'actions.<br>
 Nous souhaiterions aussi améliorer la fluidité et l'esthétisque de notre script afin qu'il soit plus aéré et harmonieux pour une expérience utilisateur optimale et agréable.
