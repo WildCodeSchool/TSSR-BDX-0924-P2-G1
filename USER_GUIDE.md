@@ -1,4 +1,6 @@
+==========================
 # Guide Utilisateur
+==========================
 
 Voici le mode d'emploi utilisateur afin que vous puissiez exécuter le script, effectuer des actions ou encore récupérer des informations sur une machine cliente distante.
 
