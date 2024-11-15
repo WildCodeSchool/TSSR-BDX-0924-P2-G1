@@ -120,8 +120,8 @@ Sur le script **Bash**, en charge :
 
 ## Améliorations possibles
 
-Des améliorations sont à prévoir afin d'agrandir le spectre des actions possibles et des informations à récupérer.<br>
-Côté Utilisateur, nous pourions rajouter la possibilité d'ajouter le compte au groupe Aministrateur ou encore récupérer des informations telles la date de dernière mofication du mot de passe.<br>
-Côté Ordinateur, nous pourrions implémenter la possibilité de mattre à jour le système, ajouter ou supprimer ds répertoire ou fichiers ou encore installer ou désinstaller des programmes.<br>
-Ce script de gestion d'une machine à distance nous permet d'envisager d'aller encore plus loin dans notre champ d'actions.<br>
+Des améliorations sont à prévoir afin d'agrandir le spectre des actions possibles et des informations à récupérer.<br> 
+Côté Utilisateur, nous pourions rajouter la possibilité d'ajouter le compte au groupe Aministrateur ou encore récupérer des informations telles la date de dernière mofication du mot de passe.<br> 
+Côté Ordinateur, nous pourrions implémenter la possibilité de mattre à jour le système, ajouter ou supprimer ds répertoire ou fichiers ou encore installer ou désinstaller des programmes.<br> 
+Ce script de gestion d'une machine à distance nous permet d'envisager d'aller encore plus loin dans notre champ d'actions.<br> 
 Nous souhaiterions aussi améliorer la fluidité et l'esthétisque de notre script afin qu'il soit plus aéré et harmonieux pour une expérience utilisateur optimale et agréable.
