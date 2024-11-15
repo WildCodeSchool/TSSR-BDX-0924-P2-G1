@@ -1,9 +1,14 @@
-#!/bin/bash
+echo ==============================================================Scripte-bash=============================================================
+echo ===============================================bienvenu veuillez entrer vos information================================================
 
 # Définition des variables globales
 CLIENT_IP="10.2.0.15"
 REMOTE_USER="wilder"
 REMOTE_PASSWORD=""
+IP="10.2.0.15"
+User="wilder"
+MDPASS="Azerty1*"
+
 LOG_FILE="/home/sysadmin/projet2/script-bash.log"
 
 # Vérifier si le fichier de journalisation existe, sinon le créer
@@ -81,9 +86,29 @@ function main_menu {
 # Fonction pour récupérer les informations d'authentification
 function ask_user_params {
     read -p "Entrez l'adresse IP de l'ordinateur distant > " CLIENT_IP
+    if [ $CLIENT_IP == $IP ]; then
+        echo "adresse IP valide"
+else
+        echo "adresse invalide"
+    exit 1
+   
+    fi
     read -p "Entrez le nom de l'utilisateur distant > " REMOTE_USER
+   
+    if [ $REMOTE_USER == $User ]; then
+       echo "utilisateur valide"
+    else
+       echo "utilisateur invalide"
+    fi
+
     read -s -p "Entrez le mot de passe de l'utilisateur distant > " REMOTE_PASSWORD
-    echo
+   
+    if [ $REMOTE_PASSWORD == $MDPASS ]; then
+    echo "connexion réussi"
+else
+    echo "mot de passe invalide"
+   
+    fi    
     log_last_login "$REMOTE_USER"
 }
 
@@ -254,3 +279,5 @@ ask_user_params
 
 # Appel principal du script
 main_menu
+echo=================================================================fin du Script-bash===============================================================
+
